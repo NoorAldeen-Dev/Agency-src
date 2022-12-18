@@ -11,10 +11,10 @@ import "../css/style.css";
 
 $(window).scroll(function(){
     if($(this).scrollTop()>=500){
-        $("#navB").addClass("sty");
+        $("#navbar").addClass("sty");
     }
     else{
-        $("#navB").removeClass("sty");
+        $("#navbar").removeClass("sty");
     }
 });
 $(function(){
